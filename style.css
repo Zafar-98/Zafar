@@ -25,6 +25,8 @@ ul {
 .header {
     min-height: 100vh;
     background: silver;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__nav {
@@ -50,6 +52,23 @@ ul {
 .header__link {
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    text-transform: capitalize;
+}
+
+.header__title {
+    font-size: 6vw;
+}
+
+.header__txt {
+    font-size: 2vw;
 }
 
 /* header end */
